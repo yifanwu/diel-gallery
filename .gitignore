@@ -7,5 +7,4 @@ node_modules/
 *.csv
 *.txt
 *.db
-*.html
 *.scrap
