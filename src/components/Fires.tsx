@@ -68,7 +68,7 @@ export default class Fires extends DielComponent<DielComponentProps> {
         layout={controlLayout}
         mapRegion={MapRegion.US}
         brushHandler={handler}
-        deselectHandler={deselectHandler}
+        onClickHandler={deselectHandler}
       />;
     return <>
       <h2>US WildFires</h2>
