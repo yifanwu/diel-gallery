@@ -39,7 +39,7 @@ const mainDbPath = `${dbPathPrefix}score.sqlite`;
 
 export const diel = new DielRuntime({
   isStrict: false,
-  showLog: false,
+  showLog: true,
   setupCb: loadPage,
   dielFiles,
   mainDbPath,
