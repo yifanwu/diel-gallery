@@ -17,7 +17,7 @@ const dbConfigs: WorkerConfig[] = [
     jsFile,
     dataFile: `${dbPathPrefix}flights.small.sqlite`
   },
-]
+];
 
 // slightly weird location I suppose
 const dielPrefix = "./assets/diel/";
@@ -39,7 +39,7 @@ const mainDbPath = `${dbPathPrefix}score.sqlite`;
 
 export const diel = new DielRuntime({
   isStrict: false,
-  showLog: true,
+  showLog: false,
   setupCb: loadPage,
   dielFiles,
   mainDbPath,

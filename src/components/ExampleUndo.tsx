@@ -34,7 +34,6 @@ export default class ExampleUndo extends DielComponent<DielComponentProps> {
       >{v}</button>
     );
     return <>
-    <h2>Simple Example of UNDO</h2>
     <p>Click on the buttons, and then press "Cmd+Z"</p>
       {buttons}
     </>;

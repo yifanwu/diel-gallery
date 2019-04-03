@@ -62,11 +62,10 @@ export default class Flights extends DielComponent<DielComponentProps> {
           onClick={() => diel.NewInput("originSelectionEvent", {origin: d.origin})}
         >{d.origin}</a>);
       return <>
-      <h1>Flight Data</h1>
-      <h2>Scatterplot of flight delay by distance (sampled)</h2>
+      <h3>Scatterplot of flight delay by distance (sampled)</h3>
       <p>You can brush on a region to zoom in for more details. Or click on the chart to deselect.</p>
       {scatterSampleDiv}
-      <h2>Filter by Aiport</h2>
+      <h3>Filter by Aiport</h3>
       <div className="top-nav">
         {options}
       </div>
